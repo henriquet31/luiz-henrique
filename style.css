@@ -5,6 +5,10 @@
 
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body, header {
     background-color: #f4f4f4;
     width: 1280px;
