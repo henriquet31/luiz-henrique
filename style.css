@@ -274,10 +274,12 @@ footer {
     section h1 {
         font-size: 30px;
         margin-inline: 10px;
+        max-width: 28%;
     }
 
     .icons img {
         margin-left: 26px;
+        max-width: 100%;
     }
     
     .icons-links {
@@ -304,7 +306,9 @@ footer {
     #projects h1 {
         background-color: #f4f4f4;
         padding-inline: 16px;
-        margin: 0 9%;
+        margin-right: 1rem;
+        max-width: 0%;
+        text-align: center;
     }
 
     /*CABEÇALHO*/
