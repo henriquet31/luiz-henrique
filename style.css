@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, header {
+    background-color: #f4f4f4;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Cabeçalho*/
+header {
+    padding: 16px 0; 
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    padding-inline: 20px;
+    font-size: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+}
+.logo img {
+    width: auto;
+    height: 40px;
+    margin-left: 16px;
+}
+
+/*Botões*/
+.btn, .btn2 {
+    height: 30px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(75, 169, 252);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.btn:hover, .btn2:hover {
+    background-color: rgb(8, 0, 255);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.button2 {
+    padding: 16px 0;
+} 
+
+.btn2 {
+    margin-left: 16px;
+}
+
+/*Sobre*/
+.container-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0;
+    align-items: center;
+}
+
+section h1 {
+    color: rgb(15, 92, 160);
+    font-size: 40px;
+    margin-left: 16px;
+}
+section p {
+    font-size: 24px;
+    padding-right: 300px;
+    margin-left: 16px;
+}
+
+.tex-destaque span {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(3, 26, 46);
+    background-color: rgb(255, 234, 127);
+    padding-inline: 8px;
+    border-radius: 10%;
+}
+
+.container-about img {
+    border-radius: 50%;
+    height: auto;
+    width: 400px;
+    margin-right: 16px;
+}
+
+/*Projetos*/
+.container-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-block: 48px;
+    margin-left: 16px;
+}
+
+.container-projects img {
+    height: 200px;
+    width: 350px;
+    border-radius: 2%;
+    margin-bottom: 48px;
+}
+
+.container-projects img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+#projects {
+    padding: 48px 0;
+}
+
+#projects h1 {
+    background-color: rgb(211, 238, 248);
+    padding-inline: 16px;
+}
+
+/*Icones e links da seção sobre*/
+.icons {
+    display: flex;
+}
+
+.icons img {
+    height: auto;
+    width: 42px;
+    border-radius: 0%;
+    margin-top: 16px;
+    margin-right: 60px;
+    margin-left: 16px;
+}
+
+.icons-links {
+    display: flex;
+    margin-left: 19%;
+}
+
+.icons-links img {
+    height: auto;
+    width: 42px;
+    border-radius: 0%;
+    margin-right: 60px;
+}
+
+.icons-links img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
