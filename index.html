@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luiz Henrique</title>
 
+    <link rel="icon" href="./imagens/Logo.png" type="image/">
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="script.js">
@@ -23,6 +25,25 @@
             <img src="./imagens/Logo.png" alt="Logotipo">
         </div>
         <div class="container-header">
+            <nav class="menu-desktop">
+                <ul>
+                    <li>
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projetos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <button onclick="animarMenu()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
+        <div class="menu-mobile" id="menu-mobile">
             <nav>
                 <ul>
                     <li>
@@ -59,7 +80,9 @@
                 </div>
             </div> 
             <div>
-                <img src="./imagens/Henrique-ai-brush-removebg-hwjt49lu.png" alt="luiz henrique">
+                <div class="image-perfil">
+                    <img src="./imagens/Henrique-ai-brush-removebg-hwjt49lu.png" alt="luiz henrique">
+                </div>
                 <div class="icons-links">
                     <div><a href="https://www.linkedin.com/in/luiz-h-o-tavares-26821629a/"><img src="./imagens/linkedin-icon-free-png.webp" alt="linkedin"></a></div>
                     <div><a href="https://github.com/henriquet31"><img src="./imagens/github.png" alt="github"></a></div>
@@ -93,5 +116,8 @@
             &copy; Luiz Henrique - Todos os direitos reservados - 2024
         </p>
 </footer>
+
+<script src="animar.js"></script>
+
 </body>
 </html>
